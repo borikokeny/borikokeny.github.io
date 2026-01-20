@@ -58,8 +58,10 @@ const Jims = () => {
             >
               Visit Project →
             </a>
+            <a href="https://github.com/borikokeny/Front-End-Frameworks_CA" target="_blank"
+            rel="noopener noreferrer" className="text-primary text-decoration-underline mb-3 d-block">Visit GitHub repo →</a>
         </div>
-        <div className="col-lg-1 col-md-12  d-flex flex-wrap justify-content-center mt-3" id="dev-elements">
+        <div className="col-lg-1 col-md-12 d-flex flex-wrap justify-content-center mt-3 mt-xxl-5 pt-xxl-5" id="dev-elements">
           <img src={tailwind} className="col-6 col-lg-12 mb-2 px-2 img-fluid" />
           <img src={react} className="col-6 col-lg-12 mb-3 px-2 img-fluid" />
           <img src={css} className="col-6 col-lg-12 mb-3 px-2 img-fluid" />

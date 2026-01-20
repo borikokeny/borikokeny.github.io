@@ -1,5 +1,5 @@
 import holidazeDesktop from "../images/Holidaze-desktop.jpg";
-import holidazeMobile from "../images/Group 62.jpg";
+import holidazeMobile from "../images/Holidaze-mobile-sm.jpg";
 import tailwind from "../images/Tailwind.png";
 import adobe from "../images/Adobe.png";
 import vite from "../images/Vite.png";
@@ -14,7 +14,7 @@ const Holidaze = () => {
     <section className="project-section holidaze container">
       <span class="border-bottom">
       <div className="row align-items-center mb-5">
-        <div className="col-lg-6 col-md-12 d-flex flex-column justify-content-between">
+        <div className="col-lg-5 col-md-12 d-flex flex-column justify-content-between">
           <h1>Holidaze</h1>
           <p>A modern booking platform for holiday rentals.</p>
           <h5>Project Overview</h5>
@@ -36,6 +36,8 @@ const Holidaze = () => {
           >
             Visit Project →
           </a>
+          <a href="https://github.com/borikokeny/Holidaze-Project-Exam-2" target="_blank"
+            rel="noopener noreferrer" className="text-primary text-decoration-underline mb-3 d-block">Visit GitHub repo →</a>
           <img src={holidazeMobile} alt="mobileview" className="w-50 mb-3" />
         </div>
         <div className="col-lg-5 col-md-12 d-flex flex-column align-items-center">
@@ -71,7 +73,7 @@ const Holidaze = () => {
           </ul>
         </div>
         <div
-          className="col-lg-1 col-md-12 d-flex flex-wrap dev-elements"
+          className="col-lg-2 col-md-12 d-flex flex-wrap dev-elements dev"
           id="dev-elements"
         >
           <img src={tailwind} className="col-6 col-lg-12 mb-2 px-2 img-fluid" />

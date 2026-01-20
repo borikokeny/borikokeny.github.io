@@ -1,16 +1,16 @@
-import React from "react";
+// import React from "react";
 
 export default function About() {
   return (
     <section
       id="about"
-      className="full-height d-flex align-items-center full-width"
+      className="d-flex align-items-center justify-content-center min-vh-100 w-100 overflow-hidden"
     >
-      <div className="container">
+      <div className="container overflow-auto p-3" style={{ maxHeight: "90vh" }}>
         <div className="row justify-content-center">
           <div className="col-lg-8 text-center">
-            <h1 className="mb-4 mt-3">Hi There!</h1>
-            <p className="mb-4">
+            <h1 className="mb-3 mt-2">Hi There!</h1>
+            <p className="mb-3">
               I am a <strong>Front-End Developer</strong> with experience in
               HTML, CSS, JavaScript, React, and WordPress, as well as API
               integrations and Adobe XD. I have a strong background in{" "}
@@ -26,34 +26,20 @@ export default function About() {
               </strong>
               .
             </p>
-            <h4 className="mb-3">Technical Skills</h4>
+            <h4 className="mb-2">Technical Skills</h4>
             <ul className="text-start d-inline-block ps-3">
-              <li>
-                <strong>Front-End Development:</strong> HTML, CSS, JavaScript,
-                React, Next.js, API integration
-              </li>
-              <li>
-                <strong>CMS & Databases:</strong> WordPress, SQL
-              </li>
-              <li>
-                <strong>Styling & Frameworks:</strong> Bootstrap, Tailwind, Sass
-              </li>
-              <li>
-                <strong>Design & Tools:</strong> Adobe XD, UI/UX Design
-              </li>
-              <li>
-                <strong>Analytics & Optimization:</strong> SEO, Google Ads,
-                Hotjar
-              </li>
-              <li>
-                <strong>Other:</strong> Excel, ChatGPT
-              </li>
+              <li><strong>Front-End Development:</strong> HTML, CSS, JavaScript, React, Next.js, API integration</li>
+              <li><strong>CMS & Databases:</strong> WordPress, SQL</li>
+              <li><strong>Styling & Frameworks:</strong> Bootstrap, Tailwind, Sass</li>
+              <li><strong>Design & Tools:</strong> Adobe XD, UI/UX Design</li>
+              <li><strong>Analytics & Optimization:</strong> SEO, Google Ads, Hotjar</li>
+              <li><strong>Other:</strong> Excel, ChatGPT</li>
             </ul>
             <div className="container mt-3">
               <div className="row">
                 <div className="col-lg-8 col-12 d-flex flex-column text-start">
                   <h4>Work Experience</h4>
-                  <h5>Creative director and Merchandiser</h5>
+                  <h5>Creative Director and Merchandiser</h5>
                   <p>
                     Co-Manager for Hungary’s largest retail and wholesale
                     company specializing in beads, jewelry, and Do-It-Yourself

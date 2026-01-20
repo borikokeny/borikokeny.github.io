@@ -14,9 +14,9 @@ const Bidify = () => {
     <section className="project-section bidify container">
     <span class="border-bottom">
       <div className="row mt-1 mb-5">
-      <h4>I am a <strong>Front-End Developer</strong> with over 20 years of experience in product development,
+      {/* <h4>I am a <strong>Front-End Developer</strong> with over 20 years of experience in product development,
       purchasing, and business development.</h4>
-      <h3>Here are the <strong>projects</strong> I was working on lately:</h3>
+      <h3>Here are the <strong>projects</strong> I was working on lately:</h3> */}
         <div className="col-5 me-3">
           <h1 className="mb-3">Bidify</h1>
           <p className="text-start mx-3">
@@ -56,9 +56,11 @@ const Bidify = () => {
           >
             Visit Project →
           </a>
+          <a href="https://github.com/borikokeny/semester-project-2-resit" target="_blank"
+            rel="noopener noreferrer" className="text-primary text-decoration-underline mb-3 d-block">Visit GitHub repo →</a>    
         </div>
         <div
-          className="col-lg-1 col-md-12 d-flex flex-wrap justify-content-center mt-3"
+          className="col-lg-1 col-md-12 d-flex flex-wrap justify-content-center mt-3 mt-xxl-5 pt-xxl-5"
           id="dev-elements"
         >
           <img src={api} className="col-6 col-lg-12 mb-2 px-2 img-fluid" />
