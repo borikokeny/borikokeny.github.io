@@ -294,3 +294,48 @@ html {
   width: 18px;
   height: 18px;
 }
+
+/* project grid*/
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+}
+
+.project-tile {
+  text-decoration: none;
+  color: inherit;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-tile:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.12);
+}
+
+.image-wrapper img {
+  width: 100%;
+  display: block;
+}
+
+.project-info {
+  padding: 1.25rem 1.5rem 1.6rem;
+}
+
+.project-info h5 {
+  margin-bottom: 0.25rem;
+}
+
+.project-info p {
+  color: #6c757d;
+  margin-bottom: 0.75rem;
+}
+
+.project-info span {
+  font-weight: 600;
+  color: #0d6efd;
+}
