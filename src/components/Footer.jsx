@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="footer fixed-bottom shadow">
       <div className="container">
         <p className="pt-2">
-        &copy; Bori Kokeny 2025
+        &copy; Bori Kokeny 2026
         </p>
         </div>
     </footer>
