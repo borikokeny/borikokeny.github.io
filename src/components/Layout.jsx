@@ -6,7 +6,7 @@ function Layout() {
   return (
     <div className="page-wrapper">
       <Header />
-      <main>
+      <main className="main-content">
         <Outlet />
       </main>
       <Footer />

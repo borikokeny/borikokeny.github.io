@@ -36,7 +36,6 @@ export default function Header() {
               >
                 Home
               </NavLink>
-              {/* <a href="#home" className="nav-link mx-3" onClick={closeNavbar}>Home</a> */}
             </li>
             <li className="nav-item">
               <NavLink
@@ -46,7 +45,6 @@ export default function Header() {
               >
                 Projects
               </NavLink>
-              {/* <a href="#projects" className="nav-link mx-3" onClick={closeNavbar}>Projects</a> */}
             </li>
             <li className="nav-item">
               <NavLink
@@ -56,7 +54,6 @@ export default function Header() {
               >
                About
               </NavLink>
-              {/* <a href="#about" className="nav-link mx-3" onClick={closeNavbar}>About me</a> */}
             </li>
             <li className="nav-item">
               <NavLink
@@ -66,7 +63,6 @@ export default function Header() {
               >
                 Contact
               </NavLink>
-              {/* <a href="#contact" className="nav-link mx-3" onClick={closeNavbar}>Contact me</a> */}
             </li>
           </ul>
         </div>
