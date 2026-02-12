@@ -1,23 +1,47 @@
+// 
+
 import React from "react";
-import  { Link } from "react-router-dom";
-import hero from "../images/Hero.jpg";
+import { Link } from "react-router-dom";
 import Welcome from "../components/Welcome";
 import ProjectsGrid from "../components/Projectsgrid";
-import { TiSocialLinkedinCircular } from "react-icons/ti";
-import { MdOutlineAlternateEmail } from "react-icons/md";
-import { PiFacebookLogoBold } from "react-icons/pi";
 
 export default function Home() {
   return (
-    
-    <div>
-<section id="home" className="full-heights position-relative">
-    </section>
-    <div><Welcome /></div>
-    <ProjectsGrid limit={3}/>
-    <Link to="/projects" className="btn btn-outline-primary mt-4 mb-6">
-          View all projects
-        </Link>
-    </div>
+    <main className="main-content">
+
+      {/* HERO */}
+      {/* <section
+        id="home"
+        className="full-heights position-relative"
+      /> */}
+
+      {/* SPACE AFTER HERO */}
+      <div className="mt-24">
+        <Welcome />
+      </div>
+
+      {/* PROJECTS SECTION */}
+      <section className="mt-32 py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-6">
+
+          <h2 className="text-2xl md:text-3xl font-semibold mb-10 text-center">
+            Selected recent projects
+          </h2>
+
+          <ProjectsGrid limit={3} />
+
+          <div className="text-center mt-12">
+            <Link
+              to="/projects"
+              className="btn btn-outline-primary"
+            >
+              View all projects
+            </Link>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
   );
 }

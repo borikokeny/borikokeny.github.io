@@ -13,9 +13,9 @@ import adobe from "../images/Adobe.png";
 
 const Jims = () => {
   return (
-    <section className="project-section container my-5">
-
-      <div className="row align-items-center flex-lg-row-reverse">
+    <section className="project-section my-5 d-flex justify-content-center">
+<div >
+<div className="row align-items-center flex-lg-row-reverse">
 
         {/* RIGHT — PROJECT IMAGE */}
         <div className="col-lg-6 mb-4 mb-lg-0">
@@ -110,6 +110,8 @@ const Jims = () => {
 
         </div>
       </div>
+</div>
+      
     </section>
   );
 };

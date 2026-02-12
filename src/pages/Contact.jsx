@@ -1,4 +1,5 @@
 import React from "react";
+import { LiaSearchLocationSolid } from "react-icons/lia";
 import { TiSocialLinkedinCircular, TiSocialGithubCircular } from "react-icons/ti";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { PiFacebookLogoBold } from "react-icons/pi";
@@ -18,7 +19,13 @@ export default function Contact() {
         </div>
 
         <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-4">
-          
+            <div className="contact-link d-flex align-items-center gap-2">
+    <LiaSearchLocationSolid className="fs-1" />
+    <span>Fredrikstad, Norway</span>
+  </div>
+          {/* <div className="location d-flex align-items-center gap-2">
+           <LiaSearchLocationSolid /><span>Fredrikstad, Norway</span>
+            </div> */}
           <a
             href="https://www.linkedin.com/in/bori-kokeny-7070008a/"
             target="_blank"
