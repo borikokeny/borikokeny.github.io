@@ -108,7 +108,7 @@ import adobe from "../images/Adobe.png";
 
 const Holidaze = () => {
   return (
-    <section className="project-section d-flex justify-content-center">
+    <section className="main-content project-section d-flex justify-content-center">
 
       <div className="row align-items-center flex-lg-row-reverse">
 
