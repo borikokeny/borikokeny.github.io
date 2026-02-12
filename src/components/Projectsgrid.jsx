@@ -24,12 +24,12 @@ const projects = [
     image: jimsImg,
     path: "/projects/jims",
   },
-   {
-    title: "Hidak",
-    subtitle: "Mentalhealth Studio",
-    image: hidakImg,
-    path: "/projects/hidak",
-  },
+  //  {
+  //   title: "Hidak",
+  //   subtitle: "Mentalhealth Studio",
+  //   image: hidakImg,
+  //   path: "/projects/hidak",
+  // },
 ];
 
 export default function ProjectsGrid({ limit }) {
