@@ -29,8 +29,8 @@ main {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  /* display: flex;
+  place-items: center; */
   min-width: 320px;
   min-height: 100vh;
 }
@@ -343,4 +343,21 @@ html {
 .main-content {
   padding-top: 80px;   /* header height */
   padding-bottom: 60px; /* footer height */
+}
+
+/* Contact section */
+#contact {
+  padding-top: 0px;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.contact-link:hover {
+  transform: translateY(-3px);
+  opacity: 0.8;
 }
