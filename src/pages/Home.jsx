@@ -1,47 +1,27 @@
-// 
-
-import React from "react";
-import { Link } from "react-router-dom";
-import Welcome from "../components/Welcome";
-import ProjectsGrid from "../components/Projectsgrid";
-
 export default function Home() {
   return (
-    <main className="main-content">
+    <section className="main-content hero d-flex align-items-center">
+      <div className="container">
+        <h1 className="display-3 fw-bold mt-5">
+          B<span className="accent1">o</span>ri Kokeny
+        </h1>
+        <h2 className="fw-light mt-3">Business-aware Front-End Developer</h2>
 
-      {/* HERO */}
-      {/* <section
-        id="home"
-        className="full-heights position-relative"
-      /> */}
+        <p className="mt-4 lead">
+          I design and build structured digital products with a strategic
+          perspective.
+        </p>
 
-      {/* SPACE AFTER HERO */}
-      <div className="mt-24">
-        <Welcome />
-      </div>
+        <div className="mt-4 d-flex gap-4">
+          <a href="/projects" className="btn btn-dark">
+            View Projects
+          </a>
 
-      {/* PROJECTS SECTION */}
-      <section className="mt-32 py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6">
-
-          <h2 className="text-2xl md:text-3xl font-semibold mb-10 text-center">
-            Selected recent projects
-          </h2>
-
-          <ProjectsGrid limit={3} />
-
-          <div className="text-center mt-12">
-            <Link
-              to="/projects"
-              className="btn btn-outline-primary"
-            >
-              View all projects
-            </Link>
-          </div>
-
+          <a href="/contact" className="btn btn-outline-dark">
+            Contact
+          </a>
         </div>
-      </section>
-
-    </main>
+      </div>
+    </section>
   );
 }
