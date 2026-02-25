@@ -3,7 +3,7 @@ export default function Home() {
     <section className="main-content hero d-flex align-items-center">
       <div className="container">
         <h1 className="display-3 fw-bold mt-5">
-          B<span className="accent1">o</span>ri Kokeny
+          B<span className="accent">o</span>ri Kokeny
         </h1>
         <h2 className="fw-light mt-3">Business-aware Front-End Developer</h2>
 

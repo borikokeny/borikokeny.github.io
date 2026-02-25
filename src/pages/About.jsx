@@ -4,7 +4,7 @@ export default function About() {
       <div className="row justify-content-center">
         <div className="col-lg-9">
           <h1 className="fw-bold mb-4 text-center">
-            Ab<span className="accent3">o</span>ut
+            Ab<span className="accent">o</span>ut
           </h1>
 
           <h2 className="mb-3 text-center">

@@ -12,7 +12,7 @@ export default function Contact() {
       <div className="container text-center">
         <div className="mb-5">
           <h1 className="fw-bold mb-3">
-            C<span className="accent4">o</span>ntact Me
+            C<span className="accent">o</span>ntact Me
           </h1>
           <p className="text-muted">
             Feel free to reach out through my socials or email.

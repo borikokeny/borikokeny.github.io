@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import bidifyImg from "../images/Bidify-desktop.jpg";
 import holidazeImg from "../images/Holidaze-desktop.jpg";
 import jimsImg from "../images/Jims-desktop.jpg";
-import hidakImg from "../images/Hidak.jpg";
 
 const projects = [
   {
@@ -24,12 +23,6 @@ const projects = [
     image: jimsImg,
     path: "/projects/jims",
   },
-  //  {
-  //   title: "Hidak",
-  //   subtitle: "Mentalhealth Studio",
-  //   image: hidakImg,
-  //   path: "/projects/hidak",
-  // },
 ];
 
 export default function ProjectsGrid({ limit }) {

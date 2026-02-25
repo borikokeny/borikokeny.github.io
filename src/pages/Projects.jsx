@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <section className="main-content container my-4">
       <h1 className="fw-bold mb-2">
-        Pr<span className="accent2">o</span>jects
+        Pr<span className="accent">o</span>jects
       </h1>
       <p className="text-muted mb-5">Selected frontend development work.</p>
 
