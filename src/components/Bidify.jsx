@@ -106,3 +106,5 @@ const Bidify = () => {
     </section>
   );
 };
+
+export default Bidify;
