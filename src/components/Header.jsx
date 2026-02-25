@@ -13,7 +13,7 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed-top shadow-sm">
+    <header className="shadow-sm">
       <nav className="container navbar navbar-expand-md navbar-light bg-white">
         <button 
           className="navbar-toggler" 
