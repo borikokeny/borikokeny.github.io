@@ -1,0 +1,38 @@
+.icons {
+  font-size: 3rem;
+  color: var(--icons);
+  margin: 0 10px;
+}
+
+.tech-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: var(--tech-bage);
+  background-color: var(--tech-bage-bg);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.tech-badge img {
+  width: 18px;
+  height: 18px;
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.contact-link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.contact-link:hover {
+  transform: translateY(-3px);
+  opacity: 0.8;
+}

@@ -1,0 +1,52 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@media (max-width: 576px) {
+  .jim {
+    padding-top: 40px;
+  }
+}
+
+@media  (min-width: 765px) {
+  .bidify {
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-section .col-6,
+  .project-section .col-5,
+  .project-section .col-1 {
+    width: 100%;
+    text-align: center;
+  }
+
+   .holidaze {
+    margin-top: 15px;
+  } 
+
+  .jims {
+    margin-top: 10px;
+  }
+
+  #about {
+   margin-top: 245px;
+  }
+}
+
+@media (max-width: 992px) {
+  .jims {
+    margin-top: 20px;
+  }
+}
+
