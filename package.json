@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/borikokeny/Portfolio_2.git"
+    "url": "git+https://github.com/borikokeny/borikokeny.github.io.git"
   },
   "author": "Bori Kokeny",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/borikokeny/Portfolio_2/issues"
+    "url": "https://github.com/borikokeny/borikokeny.github.io/issues"
   },
   "homepage": "https://borikokeny.github.io",
   "description": "",
