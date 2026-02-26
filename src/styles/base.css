@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  font-weight: 500;
+  color: var(--a);
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: var(--a-hover);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+ul {
+  padding-left: 20px; 
+  list-style-type: disc; 
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--button-bg);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+img {
+  justify-content: center;
+}

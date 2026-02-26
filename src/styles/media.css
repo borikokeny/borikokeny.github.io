@@ -1,0 +1,75 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@media (max-width: 576px) {
+  .jim {
+    padding-top: 40px;
+  }
+}
+
+@media (min-width: 765px) {
+  .bidify {
+    margin-top: 90px;
+  }
+  #contact {
+    padding-top: 0px;
+  }
+  .project-content {
+    max-width: 670px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-section .col-6,
+  .project-section .col-5,
+  .project-section .col-1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .holidaze {
+    margin-top: 15px;
+  }
+
+  .jims {
+    margin-top: 10px;
+  }
+
+  #about {
+    margin-top: 245px;
+  }
+}
+
+@media (min-width: 992px) {
+  .project-content h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .project-content h5 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .project-content p {
+    font-size: 0.65rem;
+    line-height: 1.6;
+  }
+  .tech-badge {
+    font-size: 0.65rem;
+  }
+  .project-content li {
+    font-size: 0.65rem;
+  }
+  .footer {
+    margin-top: 6rem;
+  }
+}

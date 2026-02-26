@@ -1,0 +1,111 @@
+.project-section {
+  padding: 6rem 0;
+}
+
+.project-section > .row {
+  flex: 1;
+}
+
+.wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.project-content {
+  max-width: 520px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.project-content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.project-content h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.project-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.tech-badge {
+  font-size: 0.65rem;
+}
+
+.project-content li {
+  font-size: 1rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+}
+
+.project-tile {
+  text-decoration: none;
+  color: inherit;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.project-tile:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+}
+
+.project-info {
+  padding: 1.25rem 1.5rem 1.6rem;
+}
+
+.project-info h5 {
+  margin-bottom: 0.25rem;
+}
+
+.project-info p {
+  color: var(--project-info-p);
+  margin-bottom: 0.75rem;
+}
+
+.project-info span {
+  font-weight: 600;
+  color: var(--project-info-span);
+}
+
+.bidify {
+  margin-top: 0px;
+  padding-top: 0rem;
+}
+
+.holidaze {
+  padding-top: 5rem;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-navigation {
+  font-weight: 500;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.project-navigation a {
+  transition: opacity 0.2s ease;
+}
+
+.project-navigation a:hover {
+  opacity: 0.6;
+}
