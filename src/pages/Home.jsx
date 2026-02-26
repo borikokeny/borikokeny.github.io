@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 export default function Home() {
   return (
     <section className="main-content hero d-flex align-items-center">
@@ -13,13 +14,13 @@ export default function Home() {
         </p>
 
         <div className="mt-4 d-flex gap-4">
-          <a href="/projects" className="btn btn-dark">
+          <NavLink to="/projects" className="btn btn-dark">
             View Projects
-          </a>
+          </NavLink>
 
-          <a href="/contact" className="btn btn-outline-dark">
+          <NavLink to="/contact" className="btn btn-outline-dark">
             Contact
-          </a>
+          </NavLink>
         </div>
       </div>
     </section>
