@@ -18,24 +18,25 @@
 }
 
 .project-content h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
 .project-content h5 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 .project-content p {
-  font-size: 0.65rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
 .tech-badge {
   font-size: 0.65rem;
 }
+
 .project-content li {
-  font-size: 0.65rem;
+  font-size: 1rem;
 }
 
 .projects-grid {

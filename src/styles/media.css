@@ -17,9 +17,15 @@
   }
 }
 
-@media  (min-width: 765px) {
+@media (min-width: 765px) {
   .bidify {
     margin-top: 90px;
+  }
+  #contact {
+    padding-top: 0px;
+  }
+  .project-content {
+    max-width: 670px;
   }
 }
 
@@ -31,22 +37,39 @@
     text-align: center;
   }
 
-   .holidaze {
+  .holidaze {
     margin-top: 15px;
-  } 
+  }
 
   .jims {
     margin-top: 10px;
   }
 
   #about {
-   margin-top: 245px;
+    margin-top: 245px;
   }
 }
 
-@media (max-width: 992px) {
-  .jims {
-    margin-top: 20px;
+@media (min-width: 992px) {
+  .project-content h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .project-content h5 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .project-content p {
+    font-size: 0.65rem;
+    line-height: 1.6;
+  }
+  .tech-badge {
+    font-size: 0.65rem;
+  }
+  .project-content li {
+    font-size: 0.65rem;
+  }
+  .footer {
+    margin-top: 6rem;
   }
 }
-

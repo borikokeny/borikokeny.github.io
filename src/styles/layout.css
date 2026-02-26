@@ -15,7 +15,6 @@ header {
 
 .footer {
   padding: 4rem 0 2rem;
-  margin-top: 6rem;
   border-top: 1px solid rgba(0,0,0,0.08);
   text-align: center;
 }
@@ -69,6 +68,6 @@ header {
 }
 
 #contact {
-  padding-top: 0px;
+  padding-top: 90px;
 }
 
