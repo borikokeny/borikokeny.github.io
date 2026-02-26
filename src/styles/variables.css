@@ -1,0 +1,29 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  --color-surface: #ffffff;
+  --color-semisurface: black;
+
+  --accent: #e6007e;
+  --button-hover-border: #646cff;
+  --project-info-span: #0d6efd;
+  --project-info-p: #6c757d;
+  --a: #646cff;
+  --a-hover: #535bf2;
+  --button-bg: var(--color-surface);
+  --tech-bage: var(--color-semisurface);
+  --tech-bage-bg: #f9f9f9;
+  --icons: var(--color-semisurface);
+  --icon-list: var(--color-semisurface);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
