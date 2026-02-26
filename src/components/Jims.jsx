@@ -10,16 +10,13 @@ import html from "../images/HTML.jpg";
 import vite from "../images/Vite.png";
 import adobe from "../images/Adobe.png";
 
-
 const Jims = () => {
   const location = useLocation();
 
-const currentIndex = projects.findIndex(
-  (p) => p.path === location.pathname
-);
+  const currentIndex = projects.findIndex((p) => p.path === location.pathname);
 
-const prevProject = projects[currentIndex - 1];
-const nextProject = projects[currentIndex + 1];
+  const prevProject = projects[currentIndex - 1];
+  const nextProject = projects[currentIndex + 1];
   return (
     <section className="project-section jim my-5 d-flex justify-content-center">
       <div className="container">
@@ -111,32 +108,32 @@ const nextProject = projects[currentIndex + 1];
             </div>
           </div>
         </div>
-         <div className="row">
-<hr className="my-5" />
+        <div className="row">
+          <hr className="my-5" />
 
-<div className="project-navigation d-flex justify-content-between align-items-center">
+          <div className="project-navigation d-flex justify-content-between align-items-center">
+            {prevProject ? (
+              <Link to={prevProject.path} className="text-decoration-none">
+                ← {prevProject.title}
+              </Link>
+            ) : (
+              <div />
+            )}
 
-  {prevProject ? (
-    <Link to={prevProject.path} className="text-decoration-none">
-      ← {prevProject.title}
-    </Link>
-  ) : <div />}
+            <Link to="/projects" className="text-muted text-decoration-none">
+              All projects
+            </Link>
 
-  <Link to="/projects" className="text-muted text-decoration-none">
-    All projects
-  </Link>
-
-  {nextProject ? (
-    <Link to={nextProject.path} className="text-decoration-none">
-      {nextProject.title} →
-    </Link>
-  ) : <div />}
-
-</div>
+            {nextProject ? (
+              <Link to={nextProject.path} className="text-decoration-none">
+                {nextProject.title} →
+              </Link>
+            ) : (
+              <div />
+            )}
+          </div>
+        </div>
       </div>
-      </div>
-     
-      
     </section>
   );
 };

@@ -16,6 +16,7 @@ const Bidify = () => {
 
   const prevProject = projects[currentIndex - 1];
   const nextProject = projects[currentIndex + 1];
+  
   return (
     <section className="project-section d-flex justify-content-center">
       <div className="container">

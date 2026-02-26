@@ -63,28 +63,6 @@ header {
   opacity: 0.6;
 }
 
-.full-heights {
-  width: 100vw; 
-  height: 100vh; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url("../src/images/Hero.jpg"); 
-  background-size: cover; 
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  overflow: hidden; 
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 69%;
-  left: 13%;
-  transform: translate(-50%, -50%);
-}
-
 .main-content {
   padding-top: 80px;   
   padding-bottom: 60px; 
