@@ -8,6 +8,7 @@ import "./styles/layout.css";
 import "./styles/components.css";
 import "./styles/projects.css";
 import "./styles/media.css";
+import "./styles/international-sourcing.css";
 
 
 import App from "./App";
