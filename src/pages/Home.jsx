@@ -2,6 +2,9 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Home.scss";
 
+import therapistWebsite from "../images/Terepauta.jpg";
+import printingCompany from "../images/Karika.png";
+
 const content = {
   no: {
     nav: {
@@ -13,7 +16,8 @@ const content = {
 
     hero: {
       role: "Webdesigner & frontendutvikler",
-      title: "Jeg designer og utvikler nettsider – fra idé til ferdig nettside.",
+      title:
+        "Jeg designer og utvikler nettsider – fra idé til ferdig nettside.",
       text: "Jeg hjelper deg med å finne ut hva nettsiden din trenger, hvordan den bør struktureres og hvordan den skal fungere for de som besøker den. Deretter gjør jeg ideen om til et tydelig design og en funksjonell, responsiv nettside.",
       work: "Se arbeidet mitt",
       contact: "Ta kontakt",
@@ -92,12 +96,14 @@ const content = {
           category: "Client project",
           text: "En rolig og tillitsvekkende nettside med tydelig tjenestepresentasjon og online timebestilling.",
           link: "/projects",
+          image: therapistWebsite,
         },
         {
           title: "Trykkeri nettside",
           category: "Client project",
           text: "En informativ nettside som presenterer tjenester og gjør det enkelt for besøkende å finne informasjon.",
           link: "/projects",
+          image: printingCompany,
         },
         {
           title: "Rockeband nettside",
@@ -134,7 +140,8 @@ const content = {
 
     hero: {
       role: "Webdesigner & Front-End Developer",
-      title: "Weboldalakat tervezek és készítek – az ötlettől a kész weboldalig.",
+      title:
+        "Weboldalakat tervezek és készítek – az ötlettől a kész weboldalig.",
       text: "Segítek átgondolni, hogy mire van szükséged, hogyan érdemes felépíteni az oldalad, és milyen információkat kell a látogatóknak könnyen megtalálniuk. Ezután az ötletből letisztult designt és működő, reszponzív weboldalt készítek.",
       work: "Munkáim",
       contact: "Beszéljünk róla",
@@ -213,12 +220,14 @@ const content = {
           category: "Ügyfélprojekt",
           text: "Nyugodt, bizalmat építő weboldal jól strukturált szolgáltatásbemutatással és online időpontfoglalással.",
           link: "/projects",
+          image: therapistWebsite,
         },
         {
           title: "Nyomda weboldal",
           category: "Ügyfélprojekt",
           text: "Áttekinthető üzleti weboldal a szolgáltatások bemutatására és az információk könnyű megtalálására.",
           link: "/projects",
+          image: printingCompany,
         },
         {
           title: "Rockzenekar weboldal",
@@ -343,9 +352,7 @@ function Home() {
                 <div className="hero__browser-line"></div>
 
                 <div className="hero__browser-button">
-                  {language === "no"
-                    ? "Bestill time"
-                    : "Időpontfoglalás"}
+                  {language === "no" ? "Bestill time" : "Időpontfoglalás"}
                 </div>
               </div>
             </div>
@@ -386,9 +393,7 @@ function Home() {
           <div className="services__grid">
             {t.services.items.map((service, index) => (
               <article className="service-card" key={service.title}>
-                <span className="service-card__number">
-                  0{index + 1}
-                </span>
+                <span className="service-card__number">0{index + 1}</span>
 
                 <h3>{service.title}</h3>
 
@@ -415,7 +420,11 @@ function Home() {
                 <div
                   className={`project-card__image project-card__image--${index + 1}`}
                 >
-                  <span>PROJECT 0{index + 1}</span>
+                  {project.image ? (
+                    <img src={project.image} alt={project.title} />
+                  ) : (
+                    <span>PROJECT 0{index + 1}</span>
+                  )}
                 </div>
 
                 <div className="project-card__content">
@@ -476,9 +485,7 @@ function Home() {
         <section className="contact-cta">
           <div className="contact-cta__content">
             <p className="eyebrow">
-              {language === "no"
-                ? "LA OSS SNAKKE"
-                : "BESZÉLJÜNK"}
+              {language === "no" ? "LA OSS SNAKKE" : "BESZÉLJÜNK"}
             </p>
 
             <h2>{t.contactSection.title}</h2>

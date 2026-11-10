@@ -1,4 +1,5 @@
 import ProjectsGrid from "../components/Projectsgrid";
+import ClientProjectsGrid from "../components/ClientProjectsGrid";
 
 export default function Projects() {
   return (
@@ -6,9 +7,23 @@ export default function Projects() {
       <h1 className="fw-bold mb-2">
         Pr<span className="accent">o</span>jects
       </h1>
-      <p className="text-muted mb-5">Selected frontend development work.</p>
+ <p className="text-muted mb-5">
+  Selected frontend development work.
+</p>
 
-      <ProjectsGrid />
+<h2 className="mb-4">Client Projects</h2>
+<p className="text-muted mb-4">
+  Real websites designed and developed for clients.
+</p>
+
+<ClientProjectsGrid />
+
+<h2 className="mb-4 mt-5">Development Projects</h2>
+<p className="text-muted mb-4">
+  Selected frontend development work.
+</p>
+
+<ProjectsGrid />
 
       <div className="mt-5">
         <h3 className="mb-4">Collaborative Projects</h3>

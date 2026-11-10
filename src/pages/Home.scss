@@ -656,23 +656,31 @@
 }
 
 .project-card__image {
+  // position: relative;
+
+  // height: 230px;
+
+  // display: flex;
+  // align-items: flex-end;
+
+  // padding: 20px;
+
+  // overflow: hidden;
+
+  // background:
+  //   linear-gradient(
+  //     135deg,
+  //     #f0d8dc,
+  //     #f9f2ee
+  //   );
   position: relative;
-
   height: 230px;
-
   display: flex;
-  align-items: flex-end;
-
-  padding: 20px;
-
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
   overflow: hidden;
-
-  background:
-    linear-gradient(
-      135deg,
-      #f0d8dc,
-      #f9f2ee
-    );
+  background: #f5f4f1;
 
   &::before {
     content: "";
@@ -702,6 +710,28 @@
     font-weight: 700;
     letter-spacing: 0.14em;
   }
+}
+
+.project-card__image img {
+  // position: absolute;
+  // inset: 0;
+
+  // width: 100%;
+  // height: 100%;
+
+  // object-fit: contain;
+  // object-position: center;
+
+  // display: block;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+
+
 }
 
 .project-card__image--2 {
