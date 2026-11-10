@@ -10,7 +10,7 @@ import Contact from "./pages/Contact";
 import BidifyPage from "./pages/project-pages/BidifyPage";
 import HolidazePage from "./pages/project-pages/HolidazePage";
 import JimsPage from "./pages/project-pages/JimsPage";
-import InternationalSourcing from "./pages/InternationalSourcing";
+import InternationalSourcing from "./pages/Sourcing";
 
 export default function App() {
   return (

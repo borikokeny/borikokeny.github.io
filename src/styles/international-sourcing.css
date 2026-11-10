@@ -1,0 +1,97 @@
+/* International Sourcing & Production page */
+
+.iss-page {
+  --iss-ink: #202020;
+  --iss-muted: #666;
+  --iss-line: #dedede;
+  --iss-soft: #f6f5f2;
+  width: min(100% - 40px, 1180px);
+  margin: 0 auto;
+  padding: 96px 0 72px;
+  color: var(--iss-ink);
+}
+
+.iss-page * {
+  box-sizing: border-box;
+}
+
+.iss-page figure {
+  margin: 0;
+}
+
+.iss-page h1,
+.iss-page h2,
+.iss-page h3,
+.iss-page p {
+  overflow-wrap: anywhere;
+}
+
+.iss-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+  gap: 34px 42px;
+  align-items: center;
+  padding: clamp(24px, 4vw, 48px);
+  border: 1px solid var(--iss-line);
+  border-radius: 20px;
+  background: #fff;
+}
+
+.iss-hero-copy {
+  min-width: 0;
+}
+
+.iss-eyebrow {
+  margin: 0 0 13px;
+  color: #777;
+  font-size: 0.76rem;
+  font-weight: 650;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.iss-hero h1 {
+  margin: 0 0 18px;
+  color: var(--iss-ink);
+  font-size: clamp(2.25rem, 5vw, 3.7rem);
+  font-weight: 620;
+  line-height: 1.08;
+  letter-spacing: -0.045em;
+}
+
+.iss-hero h1 span {
+  color: #b45d46;
+}
+
+.iss-hero h2 {
+  max-width: 660px;
+  margin: 0 0 18px;
+  color: #292929;
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  font-weight: 520;
+  line-height: 1.35;
+}
+
+.iss-lead {
+  max-width: 690px;
+  margin: 0;
+  color: #4e4e4e;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.iss-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.iss-tags span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  }
