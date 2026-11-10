@@ -71,3 +71,141 @@ header {
   padding-top: 90px;
 }
 
+
+/* HOME PAGE */
+
+.home-page {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 90px 24px 64px;
+  box-sizing: border-box;
+}
+
+.home-hero {
+  padding: clamp(24px, 4vw, 48px);
+  border: 1px solid #dedede;
+  border-radius: 20px;
+  background: #ffffff;
+}
+
+.home-eyebrow {
+  margin: 0 0 24px;
+  color: #666666;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.home-title {
+  margin: 0 0 20px;
+  color: #171717;
+  font-size: clamp(2.1rem, 5vw, 3.3rem);
+  line-height: 1.15;
+  font-weight: 600;
+}
+
+.home-subtitle {
+  margin: 0 0 22px;
+  color: #171717;
+  font-size: clamp(1.35rem, 3vw, 1.9rem);
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+.home-description {
+  max-width: 950px;
+  margin: 0;
+  color: #333333;
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  line-height: 1.75;
+}
+
+.home-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.home-tags span {
+  display: inline-block;
+  padding: 6px 13px;
+  border-radius: 30px;
+  background: #eeeeee;
+  color: #222222;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 28px;
+}
+
+.home-links a {
+  color: #666666;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.home-links a:hover {
+  color: #111111;
+}
+
+.home-links span {
+  margin-left: 4px;
+}
+
+.home-focus {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 36px;
+  margin-top: 40px;
+}
+
+.home-focus-item {
+  padding: 24px 0;
+  border-top: 1px solid #dedede;
+}
+
+.home-focus-label {
+  margin: 0 0 14px;
+  color: #777777;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.home-focus-item h2 {
+  margin: 0 0 12px;
+  color: #202020;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.home-focus-item p:last-child {
+  max-width: 500px;
+  margin: 0;
+  color: #555555;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .home-page {
+    padding: 85px 16px 40px;
+  }
+
+  .home-focus {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .home-links {
+    gap: 18px;
+  }
+}
