@@ -11,7 +11,6 @@
 //   );
 // }
 
-
 import { Link } from "react-router-dom";
 
 const focusAreas = [
@@ -26,7 +25,8 @@ const focusAreas = [
       "Hands-on prototyping",
       "DIY kits and production preparation",
     ],
-    projects: "Fun Fashion Factory · Beaded Animals · Original product collections",
+    projects:
+      "Fun Fashion Factory · Beaded Animals · Original product collections",
   },
   {
     number: "02",
@@ -39,8 +39,7 @@ const focusAreas = [
       "Purchasing and supplier negotiation",
       "Production preparation and quality control",
     ],
-    projects:
-      "Global sourcing experience · Hungary and China production",
+    projects: "Global sourcing experience · Hungary and China production",
     link: "/international-sourcing",
     linkLabel: "Explore sourcing & production",
   },
@@ -80,6 +79,7 @@ const featuredProjects = [
     description:
       "An international DIY jewellery concept comprising 48 designs across four product categories. From range architecture and kit composition to sampling, production follow-up and sales planning.",
     tags: ["Product concept", "DIY kits", "China production"],
+    link: "/physical-products/fun-fashion-factory",
   },
   {
     number: "02",
@@ -126,15 +126,14 @@ export default function PhysicalProducts() {
         <h1>Physical Products</h1>
 
         <h2>
-          From research and creative concepts to sourcing,
-          production and retail.
+          From research and creative concepts to sourcing, production and
+          retail.
         </h2>
 
         <p className="physical-hero-text">
-          My experience spans more than 20 years of hands-on
-          product development, combining creative thinking,
-          material knowledge, international sourcing,
-          prototyping and commercial awareness.
+          My experience spans more than 20 years of hands-on product
+          development, combining creative thinking, material knowledge,
+          international sourcing, prototyping and commercial awareness.
         </p>
 
         <div className="physical-tags">
@@ -150,9 +149,8 @@ export default function PhysicalProducts() {
           <p className="physical-eyebrow">AREAS OF EXPERIENCE</p>
           <h2>Four connected areas of expertise</h2>
           <p>
-            My work connects the creative, practical and
-            commercial aspects of bringing physical products
-            to market.
+            My work connects the creative, practical and commercial aspects of
+            bringing physical products to market.
           </p>
         </div>
 
@@ -175,10 +173,7 @@ export default function PhysicalProducts() {
               </div>
 
               {area.link && (
-                <Link
-                  to={area.link}
-                  className="physical-card-link"
-                >
+                <Link to={area.link} className="physical-card-link">
                   {area.linkLabel} <span>→</span>
                 </Link>
               )}
@@ -192,18 +187,30 @@ export default function PhysicalProducts() {
           <p className="physical-eyebrow">MY APPROACH</p>
           <h2>Understanding the complete product journey</h2>
           <p>
-            I approach product development as a connected process,
-            where creative ideas, material choices, production
-            possibilities and commercial needs inform each other.
+            I approach product development as a connected process, where
+            creative ideas, material choices, production possibilities and
+            commercial needs inform each other.
           </p>
         </div>
 
         <div className="physical-process-grid">
           {[
             ["01", "Research", "Market, customer and competitor insights."],
-            ["02", "Concept", "Ideas, product groups and assortment opportunities."],
-            ["03", "Sourcing", "Materials, suppliers and commercial evaluation."],
-            ["04", "Prototyping", "Hands-on samples and product specifications."],
+            [
+              "02",
+              "Concept",
+              "Ideas, product groups and assortment opportunities.",
+            ],
+            [
+              "03",
+              "Sourcing",
+              "Materials, suppliers and commercial evaluation.",
+            ],
+            [
+              "04",
+              "Prototyping",
+              "Hands-on samples and product specifications.",
+            ],
             ["05", "Production", "Production preparation and quality checks."],
             ["06", "Market", "Packaging, presentation and commercial context."],
           ].map(([number, title, text]) => (
@@ -221,24 +228,17 @@ export default function PhysicalProducts() {
           <p className="physical-eyebrow">SELECTED PROJECTS</p>
           <h2>Product stories</h2>
           <p>
-            A selection of projects illustrating different
-            aspects of my product development and retail experience.
+            A selection of projects illustrating different aspects of my product
+            development and retail experience.
           </p>
         </div>
 
         <div className="physical-featured-grid">
           {featuredProjects.map((project) => (
-            <article
-              className="physical-featured-card"
-              key={project.number}
-            >
-              <span className="physical-number">
-                {project.number}
-              </span>
+            <article className="physical-featured-card" key={project.number}>
+              <span className="physical-number">{project.number}</span>
 
-              <p className="physical-project-category">
-                {project.category}
-              </p>
+              <p className="physical-project-category">{project.category}</p>
 
               <h3>{project.title}</h3>
               <p>{project.description}</p>
@@ -248,6 +248,11 @@ export default function PhysicalProducts() {
                   <span key={tag}>{tag}</span>
                 ))}
               </div>
+              {project.link && (
+                <Link to={project.link} className="physical-card-link">
+                  View case study →
+                </Link>
+              )}
             </article>
           ))}
         </div>
@@ -274,16 +279,12 @@ export default function PhysicalProducts() {
           <p className="physical-eyebrow">EXPLORE MORE</p>
           <h2>International Sourcing & Production</h2>
           <p>
-            Discover my experience in international markets,
-            material sourcing, supplier collaboration and
-            production preparation.
+            Discover my experience in international markets, material sourcing,
+            supplier collaboration and production preparation.
           </p>
         </div>
 
-        <Link
-          to="/international-sourcing"
-          className="physical-cta-link"
-        >
+        <Link to="/international-sourcing" className="physical-cta-link">
           Explore the experience <span>→</span>
         </Link>
       </section>
