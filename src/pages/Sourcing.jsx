@@ -76,6 +76,10 @@ const sourcingMarkets = [
         name: "Ghana",
         detail: "Online sourcing of recycled glass beads; no personal visit.",
       },
+      {
+        name: "Turkey",
+        detail: "Online sourcing of metal crafting wires; no personal visit.",
+      },
     ],
   },
 ];
@@ -199,7 +203,7 @@ export default function InternationalSourcing() {
               <ul>
                 {market.places.map((place) => (
                   <li key={place.name}>
-                    <strong>{place.name}</strong>
+                    <strong>{place.name} </strong>
                     <span>{place.detail}</span>
                   </li>
                 ))}
@@ -213,7 +217,7 @@ export default function InternationalSourcing() {
           <p>
             Product origins also included Brazil (semi-precious stones and
             minerals), South Africa (polished gemstones and chains), Pakistan
-            (onyx and salt-based decorative objects), and Turkey (jewellery wire).
+            (onyx and salt-based decorative objects).
             These are listed as sourcing origins; personal visits have not been
             specified for these markets.
           </p>
