@@ -110,6 +110,7 @@ const additionalProjects = [
     title: "Érintettek Lánca",
     description:
       "A collaborative bead assortment and material concept for a children's support programme, developed together with my father.",
+    link: "/physical-products/erintettek-lanca",
   },
   {
     title: "Fűződe",
@@ -265,11 +266,26 @@ export default function PhysicalProducts() {
           <h2>Other projects and collaborations</h2>
         </div>
 
+        {/* <div className="physical-additional-grid">
+          {additionalProjects.map((project) => (
+            <article key={project.title}>
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
+            </article>
+          ))}
+        </div> */}
+
         <div className="physical-additional-grid">
           {additionalProjects.map((project) => (
             <article key={project.title}>
               <h3>{project.title}</h3>
               <p>{project.description}</p>
+
+              {project.link && (
+                <Link to={project.link} className="physical-card-link">
+                  View case study <span>→</span>
+                </Link>
+              )}
             </article>
           ))}
         </div>

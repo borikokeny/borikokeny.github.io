@@ -7,6 +7,7 @@ import Projects from "./pages/Projects";
 import PhysicalProducts from "./pages/Physicalproducts";
 import FunFashionFactory from "./pages/Funfashionfactory";
 import CityQueen from "./pages/CityQueen";
+import ErintettekLanca from "./pages/ErintettekLanca";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 
@@ -26,6 +27,10 @@ export default function App() {
           element={<FunFashionFactory />}
         />
         <Route path="/physical-products/city-queen" element={<CityQueen />} />
+        <Route
+          path="/physical-products/erintettek-lanca"
+          element={<ErintettekLanca />}
+        />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
