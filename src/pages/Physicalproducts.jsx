@@ -116,6 +116,7 @@ const additionalProjects = [
     title: "Fűződe",
     description:
       "A creative workshop initiative combining jewellery-making, specialist craft techniques and jewellery photography.",
+      link: "/physical-products/fuzode",
   },
 ];
 

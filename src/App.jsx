@@ -8,6 +8,7 @@ import PhysicalProducts from "./pages/Physicalproducts";
 import FunFashionFactory from "./pages/Funfashionfactory";
 import CityQueen from "./pages/CityQueen";
 import ErintettekLanca from "./pages/ErintettekLanca";
+import Fuzode from "./pages/Fuzode";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 
@@ -31,6 +32,7 @@ export default function App() {
           path="/physical-products/erintettek-lanca"
           element={<ErintettekLanca />}
         />
+        <Route path="/physical-products/fuzode" element={<Fuzode />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
