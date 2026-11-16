@@ -96,6 +96,7 @@ const featuredProjects = [
     description:
       "An original two-store earring and fashion accessories concept in Budapest. I developed the retail concept, designed original models and prototypes, managed sourcing and product development, and created the packaging and store presentation.",
     tags: ["Retail concept", "Product design", "Visual merchandising"],
+    link: "/physical-products/city-queen",
   },
 ];
 

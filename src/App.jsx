@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import PhysicalProducts from "./pages/Physicalproducts";
 import FunFashionFactory from "./pages/Funfashionfactory";
+import CityQueen from "./pages/CityQueen";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 
@@ -24,6 +25,7 @@ export default function App() {
           path="/physical-products/fun-fashion-factory"
           element={<FunFashionFactory />}
         />
+        <Route path="/physical-products/city-queen" element={<CityQueen />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
